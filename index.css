@@ -1,0 +1,68 @@
+body {
+    background-image: url("beach.jpg");
+    background-size: cover;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: beige;
+    min-width: 100vw;
+    align-content: center;
+    justify-content: center;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    text-shadow: 4px 4px 10px rgba(0,0,0,0.40);
+    }
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    
+}
+
+button {
+    border: none;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: white;
+    font-weight: bold;
+    width: 204px;
+    margin-bottom: 4px;
+    border-radius: 8px;
+}
+
+#increment-btn {
+    background: darkgoldenrod;
+    outline-color: darkorange;
+    outline-offset: 2px;
+    outline-width: 1px;
+}
+
+#save-btn {
+    background: darkblue;    
+    outline-color: darkcyan;
+    outline-offset: 2px;
+    outline-width: 1px;
+}
+
+#save-el {
+    text-shadow: 4px 4px 10px rgba(0,0,0,0.40);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgba(0,0,0,0.80);
+    padding: 4px 8px;
+    border-radius: 24px;
+}
+
+
+.container { 
+    height: calc(100vh);
+    max-width: max-content;
+    padding: 16px;
+    flex-direction: column;
+    align-content: center;
+    display: inline-block
+}
